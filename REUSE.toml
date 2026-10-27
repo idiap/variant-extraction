@@ -1,0 +1,15 @@
+version = 1
+
+[[annotations]]
+path = [
+    "requirements.txt",
+    ".gitignore",
+    "data_augmentation/*.ipynb",
+    "eval_token_regression/*.ipynb",
+    "models/*/*.ipynb",
+    "plots/*.ipynb",
+    "preprocessing/*/*ipynb"
+]
+SPDX-FileCopyrightText = "© <2026> Idiap Research Institute <contact@idiap.ch>"
+SPDX-FileContributor = "Andrei Blindu <andrei.blindu@idiap.ch>"
+SPDX-License-Identifier = "GPL-3.0-only"

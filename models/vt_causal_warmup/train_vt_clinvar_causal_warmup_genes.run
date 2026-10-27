@@ -1,0 +1,20 @@
+# SPDX-FileCopyrightText: © <2026> Idiap Research Institute <contact@idiap.ch>
+#
+# SPDX-FileContributor: Andrei Blindu <andrei.blindu@idiap.ch>
+#
+# SPDX-License-Identifier: GPL-3.0-only
+
+#!/bin/bash
+
+#SBATCH --cpus-per-gpu 4
+#SBATCH --mem 80G
+#SBATCH -p gpu
+#SBATCH -G h100
+#SBATCH -t 04:00:00
+#SBATCH -A MetaboLinkAI
+
+echo "running with:"
+
+nvidia-smi
+
+./train_vt_clinvar_causal_warmup_vt_genes.sh

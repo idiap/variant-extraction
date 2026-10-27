@@ -1,0 +1,15 @@
+/data
+/evaluation
+.DS_Store
+*.tsv
+*.gz
+*.csv
+*.txt
+*.json
+*.jsonl
+.env
+*/old_scripts
+/eval_token_regression/results*
+/eval_token_regression/data
+*.zip
+*.png
